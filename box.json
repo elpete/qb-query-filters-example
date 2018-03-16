@@ -1,0 +1,36 @@
+{
+    "name":"Advanced Script APP Template",
+    "version":"1.11.0",
+    "author":"You",
+    "location":"https://github.com/coldbox-templates/advanced-script/archive/v1.11.0.zip",
+    "slug":"cbtemplate-advanced-script",
+    "createPackageDirectory":false,
+    "type":"mvc",
+    "keywords":"",
+    "homepage":"",
+    "documentation":"",
+    "repository":{
+        "type":"",
+        "url":""
+    },
+    "bugs":"",
+    "shortDescription":"",
+    "contributors":[],
+    "ignore":[],
+    "devDependencies":{
+        "testbox":"^2.5.0"
+    },
+    "installPaths":{
+        "coldbox":"coldbox",
+        "testbox":"testbox",
+        "qb":"modules/qb"
+    },
+    "dependencies":{
+        "coldbox":"5.0.0-rc.1",
+        "qb":"^5.2.1"
+    },
+    "scripts":{
+        "postVersion":"package set location='https://github.com/coldbox-templates/advanced-script/archive/v`package version`.zip'",
+        "postPublish":"!git push --follow-tags"
+    }
+}
